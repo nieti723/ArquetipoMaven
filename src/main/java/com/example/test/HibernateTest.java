@@ -18,7 +18,7 @@ public class HibernateTest {
             transaction = session.beginTransaction();
 
             Employee prueba = new Employee();
-            prueba.setName("Paco");
+            prueba.setName("Daniel Morón Martínez");
 
             session.persist(prueba);
             transaction.commit();
